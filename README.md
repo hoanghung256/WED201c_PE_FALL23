@@ -1,3 +1,3 @@
-# WED201c_PE_FALL23
+# WED201c_PE_SU23
 
-https://www.facebook.com/groups/courseraandudemyvietnamese/permalink/912801993753247
+https://www.facebook.com/groups/courseraandudemyvietnamese/permalink/847275870305860/
