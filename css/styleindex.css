@@ -1,0 +1,160 @@
+/* Font-size, text color */
+.title {
+    color: #0EC0C3;
+}
+
+.product-title {
+    color: chocolate;
+}
+
+.price {
+    color: red;
+}
+
+@media screen and (min-width: 601px) {
+    p {
+        font-size: large;
+    }
+
+    /* CSS for .content-header  */
+    .content-header {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 120px;
+    }
+
+    .logo img {
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 100%;
+        height: auto;
+        max-width: 100px;
+    }
+
+    .search-form,
+    .feedback {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .feedback {
+        align-items: center;
+    }
+
+    /* CSS for navbar */
+    .navbar {
+        display: flex;
+        justify-content: center;
+    }
+
+    /*  */
+    .description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .description .title {
+        padding-bottom: 10px;
+    }
+
+    .images {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .column-1 {
+        text-align: end;
+    }
+
+    .column-1 img {
+        width: 100%;
+        height: auto;
+        max-width: 90%;
+        display: inline-block;
+    }
+
+    .column-2 {
+        text-align: center;
+    }
+
+    .column-2 img {
+        width: 100%;
+        height: auto;
+        max-width: 50%;
+        display: inline-block;
+    }
+
+    .product {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .product-image img {
+        width: 100%;
+        height: auto;
+        max-width: 60%;
+    }
+
+    .side-products {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .side-product {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-bottom: 3%;
+    }
+
+    .side-product img {
+        width: 100%;
+        height: auto;
+        max-width: 40%;
+    }
+
+    .side-product-image {
+        text-align: center;
+    }
+
+    .side-product-image img {
+        display: inline-block;
+    }
+
+    .footer {
+        background-color: #0EC0C3;
+        color: white;
+        padding: 1%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: large;
+    }
+
+    .content-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo img {
+        margin-top: 10px;
+        width: 100%;
+        height: auto;
+        max-width: 100px;
+        padding-bottom: 10px;
+    }
+
+    .search-form {
+        width: 95%;
+    }
+
+    .feedback h3 {
+        margin-top: -5px;
+        font-size: medium;
+    }
+}
