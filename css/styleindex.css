@@ -1,0 +1,172 @@
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.logo{
+    display: flex;
+    justify-items: center;
+}
+
+.logo-image{
+    width: 100px;
+    margin: 10px;
+}
+
+.search-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.feedback{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.feedback h3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    display: flex;
+    font-size: xx-large;
+    color: rgb(91, 213, 215);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+.p1{
+    font-size: 27px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+.images-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.images-1 .lead{
+    width: 433px;
+}
+
+.ab{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ab img{
+    width: 670px;
+}
+
+.Vision-lead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Vario-des{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.Vario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.describe p{
+    margin-right: 150px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.describe h3{
+    color: coral;
+}
+
+.Accessories{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.carbor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.carbor .img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carbor img{
+    height: 220px;
+}
+
+.carbor p{
+    font-size:16px;
+    margin-right: 150px;
+    text-align: justify;
+}
+
+.carbor h3{
+    color:coral;
+    text-align: center;
+    width: 229.800px;
+}
+
+.carbor h4{
+    color: red;
+}
+
+.liqui{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.liqui .img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.liqui img{
+    height: 220px;
+}
+
+.liqui p{
+    font-size:16px;
+    margin-right: 150px;
+    text-align: justify;
+}
+
+.liqui h3{
+    color:coral;
+    text-align: center;
+    width: 250px;
+}
+
+.liqui h4{
+    color: red;
+}
+
+.footer{
+    background-color:rgb(91, 213, 215);
+    color: aliceblue;
+    text-align: center;
+    margin-top: 20px;
+}
